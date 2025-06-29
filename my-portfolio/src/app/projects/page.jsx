@@ -154,6 +154,8 @@ export default function ProjectsPage() {
               <p>
                 As the popularity of the <a href="https://www.npmjs.com/package/videonest-sdk" target="_blank" rel="noopener noreferrer" className="font-medium text-[#8B5CF6] hover:text-[#7C3AED] transition-colors">videonest-sdk</a> grew, I added video re-encoding, subtitle generation through <span className="font-bold uppercase">Faster Whisper</span>, and ultimately an enterprise tier of the SDK with tokenized authentication.
               </p>
+
+              
             </div>
           </div>
         </div>
