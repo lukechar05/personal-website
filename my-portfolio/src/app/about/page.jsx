@@ -15,12 +15,12 @@ export default function AboutPage() {
         </p>
         
         <p>
-          Outside of the startup sphere, I pioneered an ongoing Ed-tech initiative to deliver academic resources and teacher training materials off-grid Sierra Leonean primary schools. My partner and I designed a solar charging system and process for converting donated laptops into remote learning servers, before making 2 trips to <a href="https://www.sci.pitt.edu/news/sierra-leone-continued" target="_blank" rel="noopener noreferrer" className="font-medium text-[#8B5CF6] hover:text-[#7C3AED] transition-colors">Sierra Leone</a> to deploy this technology in the villages of Kabala, Fadugu and Senekedugu. 
+          Outside of the startup sphere, I pioneered an ongoing Ed-tech initiative to deliver academic resources and teacher training materials to off-grid Sierra Leonean primary schools. My partner and I designed a solar charging system and process for converting donated laptops into remote learning servers, before making           <a href="https://www.sci.pitt.edu/news/sierra-leone-continued" target="_blank" rel="noopener noreferrer" className="font-medium text-[#8B5CF6] hover:text-[#7C3AED] transition-colors"> 2 trips to Sierra Leone</a> to deploy this technology in the villages of Kabala, Fadugu and Senekedugu. 
           Currently, 300 sixth grade students across the Koinadugu district utilize these "Virtual Learning Centers" to strengthen their foundational Math skills. 
         </p>
         
         <p>
-          When I'm not locked in at work, you can find me playing soccer in the city, browsing the CUNY library, or practicing my French and Spanish——because they need <span className="italic">a lot</span> of practice.
+          When I'm not locked in at work, you can find me playing soccer in the city, browsing NYPL, or practicing my French and Spanish——because they need <span className="italic">a lot</span> of practice.
         </p>
         
         <p className="pt-4 pb-8">

@@ -120,10 +120,10 @@ export default function ProjectsPage() {
             </h2>
             <div className="space-y-4 text-gray-700">
               <p>
-                As part of my remote learning technology project, our team needed cheap and maintainable infrastructure that could host and locally serve the educational content library we had amassed. I prototyped a process for converting any donated laptop into a lightweight Linx-Mint server, utilizing a <a href="https://worldpossible.org/" target="_blank" rel="noopener noreferrer" className="font-medium text-[#8B5CF6] hover:text-[#7C3AED] transition-colors">RACHEL network layer</a> for resource distribution.
+                As part of my remote learning technology project, our team needed cheap and maintainable infrastructure that could host the educational content library we had amassed. I prototyped a process for converting any donated laptop into a lightweight Linx-Mint server, utilizing a <a href="https://worldpossible.org/" target="_blank" rel="noopener noreferrer" className="font-medium text-[#8B5CF6] hover:text-[#7C3AED] transition-colors">RACHEL network layer</a> for resource distribution.
               </p>
               <p>
-                We then battled Linux to optimize the OS for power consumption—to ensure our device could maintain charge for an entire classday. Ultimately 4 RACHEL PC's were deployed in SL for 2023 school year, and this project won the Mascaro Center for Sustainable Innovation Student Prototyping Grant.
+                We then battled Linux to optimize the OS for power consumption, ensuring our device could maintain charge for an entire classday. Four RACHEL PC's were deployed in SL for the 2023 school year, and this project won the Mascaro Center for Sustainable Innovation Student Prototyping Grant.
               </p>
             </div>
             
@@ -149,10 +149,10 @@ export default function ProjectsPage() {
             </h2>
             <div className="space-y-4 text-gray-700">
               <p>
-                After attending a few events in the video space, I identified that founders of subscription web-based communities were consistently annoyed with Vimeo and Wistia's outrageous video hosting/streaming costs and sharky overage fees. Thanks to the owned and operated cloud video infrastructure we had already built at Videonest, I was able to whip up a quick SDK, so any web developer could upload a large video file and get back a simple Videonest Embed, complete with adaptive bitrate streaming for their website.
+                After attending a few events in the video space, I identified that founders of web-based communities were fed up with Vimeo and Wistia's outrageous video streaming unit economics and sharky overage fees. Thanks to the cloud video infrastructure we had already built at Videonest, I was able to whip up a quick SDK, so any web developer could upload a large video file and get back a simple Videonest Embed, complete with adaptive bitrate (HLS) streaming for their website.
               </p>
               <p>
-                As the popularity of the <a href="https://www.npmjs.com/package/videonest-sdk" target="_blank" rel="noopener noreferrer" className="font-medium text-[#8B5CF6] hover:text-[#7C3AED] transition-colors">videonest-sdk</a> grew, I added video re-encoding, subtitle generation through <span className="font-bold uppercase">Faster Whisper</span>, and ultimately an enterprise tier of the SDK with tokenized authentication.
+                As the popularity of the <a href="https://www.npmjs.com/package/videonest-sdk" target="_blank" rel="noopener noreferrer" className="font-medium text-[#8B5CF6] hover:text-[#7C3AED] transition-colors">videonest-sdk</a> grew, I added video re-encoding, subtitle generation through <span className="font-bold">Faster Whisper</span>, and ultimately an enterprise tier of the SDK with tokenized authentication.
               </p>
 
               
@@ -178,7 +178,7 @@ export default function ProjectsPage() {
             </h2>
             <div className="space-y-4 text-gray-700">
               <p>
-                Annoyed at Youtube's gate-keeping of creator content, I co-engineered a system designed for mass content download. I purchased and configured four <a href="https://radxa.com/products/zeros/zero3e/" target="_blank" rel="noopener noreferrer" className="font-medium text-[#8B5CF6] hover:text-[#7C3AED] transition-colors">Radxa SBC's</a> and turned them into secure proxies (aka hooked them up to all of my friend's routers). I then stood up a server that uses the <a href="https://github.com/yt-dlp/yt-dlp" target="_blank" rel="noopener noreferrer" className="font-medium text-[#8B5CF6] hover:text-[#7C3AED] transition-colors">yt-dlp</a> package for video extraction and tailscale to securely communicate with each proxy.
+                Annoyed at Youtube's gate-keeping of creator content, I co-engineered a system designed for mass content download. I configured four <a href="https://radxa.com/products/zeros/zero3e/" target="_blank" rel="noopener noreferrer" className="font-medium text-[#8B5CF6] hover:text-[#7C3AED] transition-colors">Radxa SBC's</a> and turned them into secure proxies (aka hooked them up to all of my friend's routers). I then stood up a server that uses the <a href="https://github.com/yt-dlp/yt-dlp" target="_blank" rel="noopener noreferrer" className="font-medium text-[#8B5CF6] hover:text-[#7C3AED] transition-colors">yt-dlp</a> package for video extraction and tailscale to securely communicate with each proxy.
               </p>
               <p>
                 After realizing that Youtube quickly flagged non-authenticated requests, I had to implement session rotation of cookies from a series of Google accounts. This multi-node approach enabled high-throughput processing for downloading a creator's entire video library within a matter of hours.
@@ -195,10 +195,10 @@ export default function ProjectsPage() {
             </h2>
             <div className="space-y-4 text-gray-700">
               <p>
-                This was a university-sponsored project for PPG Industries, where each team was given a noisy data sample of paint corrosion simulations and asked to build a model that could predict and thereby limit corrosion over time. I conducted EDA feature analysis on a variety of provided chemical and manufacturing inputs and then tried my hand at architecting and training a neuralnet, gradient boosted tree, and random forest model.
+                This was a university-sponsored project for PPG Industries, where each team was given a noisy data sample of paint corrosion simulations and asked to build a model that could predict and thereby limit corrosion over time. I conducted EDA feature analysis on a variety of chemical and manufacturing inputs and then tried my hand at architecting and training a neuralnet, gradient boosted tree, and random forest model.
               </p>
               <p>
-                Eventually, I landed on the neuralnet model and then tuned for the highest AUC score, which ended up scoring ~93% on the test set.
+                Eventually, I landed on the neuralnet model and then tuned for the highest AUC score, which ended up scoring ~93% on the set of test data.
               </p>
             </div>
             
